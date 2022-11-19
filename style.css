@@ -1,0 +1,55 @@
+main{
+    background-image: url("img/fondo.jpg");
+    width: 1000px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;/*Esta propiedad la uso para que cuando ocurra el desbordamiento, el elemneto desbordado pase abajo*/
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    border: #eccca1 8px ridge;
+}
+img{
+    height: 200px; 
+    padding: 20px;
+    cursor: pointer;
+}
+h1{
+    background-color: #eccca1;
+}
+.container{
+    display: flex;
+    margin: 10px;
+    width: 900px;
+}
+.content-1{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    width: 900px;
+    justify-content: center;
+    border: #eccca1 8px outset;
+}
+.content-2{
+    display: flex;
+    background-color: #eccca1;
+    padding: 20px;
+    width: 900px;
+    justify-content: center;
+    border: white 8px outset;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #eccca1;
+    border: white 8px outset;
+}
+p{
+    font-style: italic;
+    margin: 10px 50px 10px 50px;
+}
+/*
+    Recursos
+    https://www.mclibre.org/consultar/htmlcss/css/css-bordes.html
+    Tipos de bordes para aplicar en proyectos muy interesantes
+*/
